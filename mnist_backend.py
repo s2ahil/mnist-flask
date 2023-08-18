@@ -12,9 +12,9 @@ app = Flask(__name__)
 
 # with open('./mnist.pkl', 'rb') as model_file:
 #     model = pickle.load(model_file)
-model = joblib.load('mnist.pkl')
+# model = joblib.load('mnist.pkl')
 # model = load_model('mnist_h5')
-# json_file = open('myModel.json', 'r')
+json_file = open('myModel.json', 'r')
 # loaded_model_json = json_file.read()
 # json_file.close()
 # new_model = model_from_json(loaded_model_json)
