@@ -9,7 +9,7 @@ import tensorflow.compat.v2 as tf
 
 app = Flask(__name__)
 
-with open('mnist.pkl', 'rb') as model_file:
+with open('./mnist.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 # model = joblib.load('mnist.joblib')
 # model = load_model('mnist_h5')
