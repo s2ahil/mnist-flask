@@ -15,9 +15,9 @@ app = Flask(__name__)
 # model = joblib.load('mnist.pkl')
 # model = load_model('mnist_h5')
 json_file = open('myModel.json', 'r')
-# loaded_model_json = json_file.read()
-# json_file.close()
-# new_model = model_from_json(loaded_model_json)
+loaded_model_json = json_file.read()
+json_file.close()
+new_model = model_from_json(loaded_model_json)
 
 
 @app.route('/',methods = ['GET'])
