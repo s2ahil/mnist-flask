@@ -10,7 +10,7 @@ app = Flask(__name__)
 # model = load_model('mnist_h5')
 
 
-@app.route('/')
+@app.route('/',methods = ['GET'])
 # ‘/’ URL is bound with hello_world() function.
 def hello_world():
 	return 'Hello World'
