@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 
 app = Flask(__name__)
-model = joblib.load('mnist.joblib')
+# model = joblib.load('mnist.joblib')
 # model = load_model('mnist_h5')
 
 
