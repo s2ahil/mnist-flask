@@ -5,4 +5,4 @@ uvicorn
 gunicorn
 flask
 joblib
-cv2
+opencv-python
