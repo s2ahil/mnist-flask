@@ -12,10 +12,10 @@ model2=keras.models.load_model('model.h5')
 
 @app.route('/', methods=['GET'])
 def hello_world():
-    json_file = open('myModel.json', 'r')
-    loaded_model_json = json_file.read()
-    json_file.close()
-    model = model_from_json(loaded_model_json)
+    # json_file = open('myModel.json', 'r')
+    # loaded_model_json = json_file.read()
+    # json_file.close()
+    # model = model_from_json(loaded_model_json)
 
     # Read the uploaded image model2
     image_path = '8.png'  # Replace with the path to your image
