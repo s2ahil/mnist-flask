@@ -3,6 +3,7 @@ from flask import Flask
 import numpy as np
 import joblib
 import cv2
+import pickle
 
 
 app = Flask(__name__)
