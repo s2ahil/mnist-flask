@@ -44,7 +44,7 @@ def hello_world():
 
  # plt.tight_layout()
  # plt.show()
-          return inverted_image 
+         return inverted_image 
         pre_img=preprocess()
 	prediction = model1.predict(np.array([pre_img]))
         predicted_digit = np.argmax(prediction)
