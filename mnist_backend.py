@@ -13,7 +13,10 @@ app = Flask(__name__)
 #     model = pickle.load(model_file)
 # model = joblib.load('mnist.joblib')
 # model = load_model('mnist_h5')
-
+json_file = open('myModel.json', 'r')
+loaded_model_json = json_file.read()
+json_file.close()
+new_model = model_from_json(loaded_model_json)
 
 
 @app.route('/',methods = ['GET'])
