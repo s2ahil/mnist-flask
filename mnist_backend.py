@@ -29,7 +29,7 @@ def hello_world():
         return inverted_image
 
     pre_img = preprocess()
-    prediction = model.predict(np.array([pre_img]))
+    prediction = model2.predict(np.array([pre_img]))
     predicted_digit = np.argmax(prediction)
 
     print(predicted_digit)
