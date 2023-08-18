@@ -7,3 +7,4 @@ flask
 joblib
 opencv-python
 keras
+tensorflow
