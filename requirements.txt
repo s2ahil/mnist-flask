@@ -6,3 +6,4 @@ gunicorn
 flask
 joblib
 opencv-python
+keras
