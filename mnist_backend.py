@@ -4,6 +4,7 @@ import numpy as np
 import joblib
 import cv2
 import pickle
+import tensorflow.compat.v2 as tf
 
 
 app = Flask(__name__)
