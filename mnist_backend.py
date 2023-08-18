@@ -8,6 +8,7 @@ import tensorflow.compat.v2 as tf
 from keras.models import model_from_json
 
 app = Flask(__name__)
+model2=keras.models.load_model('model.h5')
 
 @app.route('/', methods=['GET'])
 def hello_world():
